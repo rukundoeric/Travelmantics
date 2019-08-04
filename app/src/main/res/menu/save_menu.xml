@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.travelmantics.DealActivity">
+    <item android:id="@+id/save_menu"
+        android:title="@string/save_menu"
+        app:showAsAction="always">Save</item>
+    <item android:id="@+id/delete_menu"
+        android:title="Delete"
+        app:showAsAction="never"/>
+</menu>
